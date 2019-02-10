@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "heroku-postbuild": "cd frontend/ & npm run build",
+    "heroku-postbuild": "cd frontend/ && npm run build",
     "start": "node ./bin/www"
   },
   "dependencies": {
