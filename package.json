@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/keke5000/hiilari/issues"
   },
+  "engines": {
+    "node": "11.x"
+  },
   "homepage": "https://github.com/keke5000/hiilari#readme"
 }
