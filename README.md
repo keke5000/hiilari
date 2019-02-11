@@ -1,5 +1,3 @@
 # Hiilibudjetti
 
-Osoite sovellukseen [http://hiilibudjetti.herokuapp.com](http://hiilibudjetti.herokuapp.com).
-
-Osoite sovellukseen [http://hiilibudjetti.fi](http://hiilibudjetti.fi).
+Osoite sovellukseen [http://www.hiilibudjetti.fi](http://www.hiilibudjetti.fi).
