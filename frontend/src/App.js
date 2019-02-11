@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Counteri from './Components/Countdown/Counteri.js';
 
 class App extends Component {
   render() {
@@ -7,9 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1>
-            Hiilibudjetti
+            Hiilibudjettiiii
           </h1>
         </header>
+          <Counteri/>
       </div>
     );
   }
