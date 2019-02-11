@@ -12,3 +12,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.countdown {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.countdown-second-row {
+  font-size: 80%;
+}
