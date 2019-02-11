@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Countdown from './components/Countdown';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
           <h1>
             Hiilibudjetti
           </h1>
+          <Countdown />
         </header>
       </div>
     );
