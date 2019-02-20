@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Countdown from './components/Countdown';
+import CountdownVerbose from './components/CountdownVerbose';
 import background from './images/Hiilibudjetti_maa.png';
 import background2 from './images/Hiilibudjetti_tausta.png';
 
@@ -12,7 +12,7 @@ class App extends Component {
           <h1>
             Hiilibudjetti
           </h1>
-          <Countdown />
+          <CountdownVerbose />
           <img className="buildings" src={background} alt="Background image"/>
           <img className="backgroundImage" src={background2} alt="Background image"/>
         </header>

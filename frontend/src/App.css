@@ -35,3 +35,64 @@
   z-index: -1;
   position: absolute;
 }
+
+.countdownVerbose {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.alignLeft {
+  padding-left: 10px;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+body {
+  text-transform: uppercase;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+@font-face {
+  font-family: 'futu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./futu.otf'); /* IE9 Compat Modes */
+  src: local('futu.oft'), local('futu.otf'),
+       url('./futu.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./futu.otf') format('woff2'), /* Super Modern Browsers */
+       url('./futu.otf') format('woff'), /* Modern Browsers */
+       url('./futu.otf') format('truetype'), /* Safari, Android, iOS */
+       url('./futu.otf') format('svg'); /* Legacy iOS */
+}
+body {
+  font-family: 'futu';
+}
+
+@font-face {
+  font-family: 'tondu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./tondu.ttf'); /* IE9 Compat Modes */
+  src: local('./tondu.ttf'), local('./tondu.ttf'),
+       url('./tondu.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./tondu.ttf') format('woff2'), /* Super Modern Browsers */
+       url('./tondu.ttf') format('woff'), /* Modern Browsers */
+       url('./tondu.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./tondu.ttf') format('svg'); /* Legacy iOS */
+}
+
+h1 {
+  font-family: tondu;
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.loppumiseen {
+  font-size: 90%;
+}
