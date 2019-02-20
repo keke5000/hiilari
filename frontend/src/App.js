@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import CountdownVerbose from './components/CountdownVerbose';
 import background from './images/Hiilibudjetti_maa.png';
-import background2 from './images/Hiilibudjetti_tausta.png';
+import background3 from './images/Hiilibudjetti_tausta_xs.jpg';
+
 
 class App extends Component {
   render() {
@@ -14,7 +15,7 @@ class App extends Component {
           </h1>
           <CountdownVerbose />
           <img className="buildings" src={background} alt="Background image"/>
-          <img className="backgroundImage" src={background2} alt="Background image"/>
+          <img className="backgroundImage" src={background3} alt="Background image"/>
         </header>
       </div>
     );
