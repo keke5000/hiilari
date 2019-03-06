@@ -25,7 +25,7 @@ class Countdown extends Component {
             this.setState({
                 year: time.getFullYear() - beginningOfTime.getFullYear(),
                 month: time.getMonth() + 1 - beginningOfTime.getMonth(),
-                day: time.getDate() - 1 - beginningOfTime.getDate(),
+                day: time.getDate() - beginningOfTime.getDate(),
                 hour: time.getHours() - beginningOfTime.getHours(),
                 minute: time.getMinutes() - beginningOfTime.getMinutes(),
                 second: time.getSeconds() - beginningOfTime.getSeconds()

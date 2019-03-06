@@ -29,6 +29,12 @@
   position: absolute;
 }
 
+.backgroundImageSVG {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
 .buildings {
   height: 100%;
   width: 100%;
@@ -71,9 +77,6 @@ body {
        url('./futu.otf') format('truetype'), /* Safari, Android, iOS */
        url('./futu.otf') format('svg'); /* Legacy iOS */
 }
-body {
-  font-family: 'futu';
-}
 
 @font-face {
   font-family: 'tondu';
@@ -93,6 +96,25 @@ h1 {
   text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
+p {
+  width: 75%;
+}
+
+body {
+  font-family: 'futu';
+  background-color: #221F1F;
+}
+
 .loppumiseen {
   font-size: 90%;
+}
+
+.infoteksti {
+  height: 100vh;
+  color: white;
+  font-size: 150%;
+  text-transform: none;
+  font-family: 'tondu';
+  font-weight: 100;
+  align-self: center;
 }
