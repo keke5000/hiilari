@@ -30,7 +30,7 @@ class Countdown extends Component {
                 minute: time.getMinutes() - beginningOfTime.getMinutes(),
                 second: time.getSeconds() - beginningOfTime.getSeconds()
             });
-        }, 100)
+        }, 500)
     }
 
     countTimeDifference = () => {
@@ -40,6 +40,7 @@ class Countdown extends Component {
         return new Date(milliSeconds);
     }
 
+//TODO: add tbody tags
     render() {
         return (
             <div>
