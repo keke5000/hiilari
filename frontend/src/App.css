@@ -117,4 +117,5 @@ body {
   font-family: 'tondu';
   font-weight: 100;
   align-self: center;
+  word-wrap: break-word;
 }

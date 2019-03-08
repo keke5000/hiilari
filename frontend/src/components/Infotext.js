@@ -15,13 +15,15 @@ class Infotext extends Component {
             <p className="text-left">
             1,5C hiilibudjettia oli 1.1.2019 jäljellä 420 gigatonnia. Vuoden 2018 päästöt olivat 42,2 gigatonnia. Budjetti päivitetään vuosittain edeltävän vuoden toteutuneiden päästöjen mukaan.
             Hiilibudjetissa verrataan planeetan pintailman lämpötilaa vuosien 1850-1900 keskiarvoon. Laskurin lukema perustuu IPCC:n arvioon, jolla yli 1,5 asteen lämpenemiseltä välttymisen todennäköisyys on 66 prosenttia.</p>
+            <br/>
             <p className="text-left">
-            Yhteenveto tutkimuksista hiilibudjetin määrästä:
-            <br/>
-            www.carbonbrief.org/analysis-how-much-carbon-budget-is-left-to-limit-global-warming-to-1-5c
-            <br/>
+            Yhteenveto tutkimuksista hiilibudjetin määrästä:</p>
+            <p className="text-left">
+            www.carbonbrief.org/analysis-how-much-carbon-budget-is-left-to-limit-global-warming-to-1-5c</p>
+            <p className="text-left">
             Lähde hiilidioksidipäästöille:
-            <br/>
+            </p>
+            <p className="text-left">
             www.globalcarbonproject.org/carbonbudget/18/infographics.htm (ei sis. maankäytön päästöjä)</p>
             </div>
       </div>
