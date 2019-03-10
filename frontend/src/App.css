@@ -65,6 +65,37 @@ body {
   text-align: right;
 }
 
+
+h1 {
+  font-family: 'tondu';
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+p {
+  width: 75%;
+}
+
+body {
+  font-family: 'futu';
+  background-color: #221F1F;
+}
+
+.loppumiseen {
+  font-size: 90%;
+}
+
+.infoteksti {
+  font-family: 'Lato-Regular';
+  height: 100vh;
+  color: white;
+  font-size: 150%;
+  text-transform: none;
+  font-weight: 100;
+  align-self: center;
+  word-wrap: break-word;
+}
+
+
 @font-face {
   font-family: 'futu';
   font-style: normal;
@@ -91,31 +122,15 @@ body {
        url('./tondu.ttf') format('svg'); /* Legacy iOS */
 }
 
-h1 {
-  font-family: tondu;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
-}
-
-p {
-  width: 75%;
-}
-
-body {
-  font-family: 'futu';
-  background-color: #221F1F;
-}
-
-.loppumiseen {
-  font-size: 90%;
-}
-
-.infoteksti {
-  height: 100vh;
-  color: white;
-  font-size: 150%;
-  text-transform: none;
-  font-family: 'tondu';
-  font-weight: 100;
-  align-self: center;
-  word-wrap: break-word;
+@font-face {
+  font-family: 'Lato-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Lato-Regular.ttf'); /* IE9 Compat Modes */
+  src: local('./Lato-Regular.ttf'), local('./Lato-Light.ttf'),
+       url('./Lato-Regular.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./Lato-Regular.ttf') format('woff2'), /* Super Modern Browsers */
+       url('./Lato-Regular.ttf') format('woff'), /* Modern Browsers */
+       url('./Lato-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./Lato-Regular.ttf') format('svg'); /* Legacy iOS */
 }

@@ -34,7 +34,7 @@ class Infotext extends Component {
             <a href>
             www.globalcarbonproject.org/carbonbudget/18/infographics.htm (ei sis. maankäytön päästöjä)
             </a></p>
-            </div>
+          </div>
       </div>
     );
   }
